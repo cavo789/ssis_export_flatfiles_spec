@@ -1,0 +1,8 @@
+#;Start;End;FieldName;FieldType;FieldSize
+2;1;13;FakeFieldName;Unicode string [DT_WSTR];13
+3;14;19;FakeFieldName;Unicode string [DT_WSTR];6
+4;20;20;FakeFieldName;Unicode string [DT_WSTR];1
+5;21;22;FakeFieldName;Unicode string [DT_WSTR];2
+6;23;31;FakeFieldName;float [DT_R4];9
+7;32;42;FakeFieldName;float [DT_R4];11
+8;43;51;FakeFieldName;four-byte unsigned integer [DT_UI4];9

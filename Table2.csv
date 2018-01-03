@@ -1,0 +1,136 @@
+#;Start;End;FieldName;FieldType;FieldSize
+2;1;13;FakeFieldName;Unicode string [DT_WSTR];13
+3;14;19;FakeFieldName;Unicode string [DT_WSTR];6
+4;20;20;FakeFieldName;Unicode string [DT_WSTR];1
+5;21;26;FakeFieldName;Unicode string [DT_WSTR];6
+6;27;27;FakeFieldName;Unicode string [DT_WSTR];1
+7;28;28;FakeFieldName;Unicode string [DT_WSTR];1
+8;29;29;FakeFieldName;Unicode string [DT_WSTR];1
+9;30;35;FakeFieldName;Unicode string [DT_WSTR];6
+10;36;37;FakeFieldName;Unicode string [DT_WSTR];2
+11;38;39;FakeFieldName;Unicode string [DT_WSTR];2
+12;40;45;FakeFieldName;Unicode string [DT_WSTR];6
+13;46;50;FakeFieldName;Unicode string [DT_WSTR];5
+14;51;55;FakeFieldName;Unicode string [DT_WSTR];5
+15;56;56;FakeFieldName;Unicode string [DT_WSTR];1
+16;57;57;FakeFieldName;Unicode string [DT_WSTR];1
+17;58;58;FakeFieldName;Unicode string [DT_WSTR];1
+18;59;60;FakeFieldName;Unicode string [DT_WSTR];2
+19;61;62;FakeFieldName;Unicode string [DT_WSTR];2
+20;63;63;FakeFieldName;Unicode string [DT_WSTR];1
+21;64;64;FakeFieldName;Unicode string [DT_WSTR];1
+22;65;65;FakeFieldName;Unicode string [DT_WSTR];1
+23;66;66;FakeFieldName;Unicode string [DT_WSTR];1
+24;67;67;FakeFieldName;Unicode string [DT_WSTR];1
+25;68;68;FakeFieldName;Unicode string [DT_WSTR];1
+26;69;69;FakeFieldName;Unicode string [DT_WSTR];1
+27;70;70;FakeFieldName;Unicode string [DT_WSTR];1
+28;71;71;FakeFieldName;Unicode string [DT_WSTR];1
+29;72;72;FakeFieldName;Unicode string [DT_WSTR];1
+30;73;73;FakeFieldName;Unicode string [DT_WSTR];1
+31;74;74;FakeFieldName;Unicode string [DT_WSTR];1
+32;75;76;FakeFieldName;Unicode string [DT_WSTR];2
+33;77;77;FakeFieldName;Unicode string [DT_WSTR];1
+34;78;78;FakeFieldName;Unicode string [DT_WSTR];1
+35;79;79;FakeFieldName;Unicode string [DT_WSTR];1
+36;80;80;FakeFieldName;Unicode string [DT_WSTR];1
+37;81;86;FakeFieldName;float [DT_R4];6
+38;87;93;FakeFieldName;float [DT_R4];7
+39;94;100;FakeFieldName;float [DT_R4];7
+40;101;108;FakeFieldName;float [DT_R4];8
+41;109;109;FakeFieldName;Unicode string [DT_WSTR];1
+42;110;110;FakeFieldName;Unicode string [DT_WSTR];1
+43;111;117;FakeFieldName;Unicode string [DT_WSTR];7
+44;118;126;FakeFieldName;Unicode string [DT_WSTR];9
+45;127;135;FakeFieldName;Unicode string [DT_WSTR];9
+46;136;137;FakeFieldName;Unicode string [DT_WSTR];2
+47;138;139;FakeFieldName;Unicode string [DT_WSTR];2
+48;140;141;FakeFieldName;Unicode string [DT_WSTR];2
+49;142;142;FakeFieldName;Unicode string [DT_WSTR];1
+50;143;143;FakeFieldName;Unicode string [DT_WSTR];1
+51;144;146;FakeFieldName;Unicode string [DT_WSTR];3
+52;147;157;FakeFieldName;Unicode string [DT_WSTR];11
+53;158;165;FakeFieldName;Unicode string [DT_WSTR];8
+54;166;167;FakeFieldName;Unicode string [DT_WSTR];2
+55;168;168;FakeFieldName;Unicode string [DT_WSTR];1
+56;169;173;FakeFieldName;Unicode string [DT_WSTR];5
+57;174;179;FakeFieldName;Unicode string [DT_WSTR];6
+58;180;189;FakeFieldName;Unicode string [DT_WSTR];10
+59;190;193;FakeFieldName;Unicode string [DT_WSTR];4
+60;194;195;FakeFieldName;Unicode string [DT_WSTR];2
+61;196;196;FakeFieldName;Unicode string [DT_WSTR];1
+62;197;197;FakeFieldName;Unicode string [DT_WSTR];1
+63;198;199;FakeFieldName;Unicode string [DT_WSTR];2
+64;200;201;FakeFieldName;Unicode string [DT_WSTR];2
+65;202;207;FakeFieldName;Unicode string [DT_WSTR];6
+66;208;214;FakeFieldName;Unicode string [DT_WSTR];7
+67;215;215;FakeFieldName;Unicode string [DT_WSTR];1
+68;216;220;FakeFieldName;four-byte unsigned integer [DT_UI4];5
+69;221;230;FakeFieldName;float [DT_R4];10
+70;231;235;FakeFieldName;four-byte unsigned integer [DT_UI4];5
+71;236;236;FakeFieldName;Unicode string [DT_WSTR];1
+72;237;239;FakeFieldName;Unicode string [DT_WSTR];3
+73;240;240;FakeFieldName;Unicode string [DT_WSTR];1
+74;241;241;FakeFieldName;Unicode string [DT_WSTR];1
+75;242;245;FakeFieldName;Unicode string [DT_WSTR];4
+76;246;249;FakeFieldName;Unicode string [DT_WSTR];4
+77;250;250;FakeFieldName;Unicode string [DT_WSTR];1
+78;251;256;FakeFieldName;Unicode string [DT_WSTR];6
+79;257;266;FakeFieldName;float [DT_R4];10
+80;267;268;FakeFieldName;Unicode string [DT_WSTR];2
+81;269;276;FakeFieldName;float [DT_R4];8
+82;277;286;FakeFieldName;float [DT_R4];10
+83;287;294;FakeFieldName;float [DT_R4];8
+84;295;302;FakeFieldName;float [DT_R4];8
+85;303;312;FakeFieldName;float [DT_R4];10
+86;313;318;FakeFieldName;Unicode string [DT_WSTR];6
+87;319;322;FakeFieldName;Unicode string [DT_WSTR];4
+88;323;323;FakeFieldName;Unicode string [DT_WSTR];1
+89;324;329;FakeFieldName;Unicode string [DT_WSTR];6
+90;330;339;FakeFieldName;float [DT_R4];10
+91;340;341;FakeFieldName;Unicode string [DT_WSTR];2
+92;342;349;FakeFieldName;float [DT_R4];8
+93;350;359;FakeFieldName;float [DT_R4];10
+94;360;367;FakeFieldName;float [DT_R4];8
+95;368;375;FakeFieldName;float [DT_R4];8
+96;376;385;FakeFieldName;float [DT_R4];10
+97;386;391;FakeFieldName;Unicode string [DT_WSTR];6
+98;392;395;FakeFieldName;Unicode string [DT_WSTR];4
+99;396;396;FakeFieldName;Unicode string [DT_WSTR];1
+100;397;402;FakeFieldName;Unicode string [DT_WSTR];6
+101;403;412;FakeFieldName;float [DT_R4];10
+102;413;414;FakeFieldName;Unicode string [DT_WSTR];2
+103;415;422;FakeFieldName;float [DT_R4];8
+104;423;432;FakeFieldName;float [DT_R4];10
+105;433;440;FakeFieldName;float [DT_R4];8
+106;441;448;FakeFieldName;float [DT_R4];8
+107;449;458;FakeFieldName;float [DT_R4];10
+108;459;464;FakeFieldName;Unicode string [DT_WSTR];6
+109;465;470;FakeFieldName;Unicode string [DT_WSTR];6
+110;471;475;FakeFieldName;four-byte unsigned integer [DT_UI4];5
+111;476;486;FakeFieldName;float [DT_R4];11
+112;487;497;FakeFieldName;float [DT_R4];11
+113;498;508;FakeFieldName;float [DT_R4];11
+114;509;519;FakeFieldName;float [DT_R4];11
+115;520;530;FakeFieldName;float [DT_R4];11
+116;531;541;FakeFieldName;float [DT_R4];11
+117;542;552;FakeFieldName;float [DT_R4];11
+118;553;563;FakeFieldName;float [DT_R4];11
+119;564;574;FakeFieldName;float [DT_R4];11
+120;575;585;FakeFieldName;float [DT_R4];11
+121;586;596;FakeFieldName;float [DT_R4];11
+122;597;607;FakeFieldName;float [DT_R4];11
+123;608;618;FakeFieldName;float [DT_R4];11
+124;619;629;FakeFieldName;float [DT_R4];11
+125;630;640;FakeFieldName;float [DT_R4];11
+126;641;651;FakeFieldName;float [DT_R4];11
+127;652;656;FakeFieldName;four-byte unsigned integer [DT_UI4];5
+128;657;661;FakeFieldName;four-byte unsigned integer [DT_UI4];5
+129;662;663;FakeFieldName;Unicode string [DT_WSTR];2
+130;664;665;FakeFieldName;Unicode string [DT_WSTR];2
+131;666;667;FakeFieldName;Unicode string [DT_WSTR];2
+132;668;670;FakeFieldName;Unicode string [DT_WSTR];3
+133;671;671;FakeFieldName;Unicode string [DT_WSTR];1
+134;672;672;FakeFieldName;Unicode string [DT_WSTR];1
+135;673;679;FakeFieldName;four-byte unsigned integer [DT_UI4];7
+136;680;681;FakeFieldName;string [DT_STR];2
