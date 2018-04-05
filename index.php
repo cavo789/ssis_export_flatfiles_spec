@@ -45,7 +45,6 @@
  * The name of these files will be the name given to the connection
  * manager and filenames will be displayed on the screen.
  */
-
 define ('DS', DIRECTORY_SEPARATOR);
 
 /**
@@ -120,12 +119,15 @@ function makeCSV($name, $sXML)
 		// Retrieve field's name, type and size
 		$sName=$node->xpath('@DTS:ObjectName')[0];
 		$sType=getHumanType(trim($node->xpath('@DTS:DataType')[0]));
-		$wSize=intval($node->xpath('@DTS:ColumnWidth')[0]);
 
+		$wSize=0;
+		if (count($node->xpath('@DTS:ColumnWidth'))>0) {
+			$wSize=intval($node->xpath('@DTS:ColumnWidth')[0]);
+		}
 		// Prepare the output
 		$wEnd = $wStart + $wSize - 1;
 
-		$sCSV .= ($i+1).';'.$wStart.';'.$wEnd.';'.
+		$sCSV .= $i.';'.$wStart.';'.$wEnd.';'.
 			$sName.';'.$sType.';'.$wSize.PHP_EOL;
 
 		$wStart = $wEnd + 1;
