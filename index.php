@@ -48,6 +48,12 @@
 define ('DS', DIRECTORY_SEPARATOR);
 
 /**
+ * In the generated CSV file what should be the first "Start" info ?
+ * Do you prefer to say that the field start at position 1 ? or 0 ?
+ */
+define ('BASE_START', 1);
+
+/**
  * Replace internal datatype code by their description.
  * @link https://msdn.microsoft.com/en-us/library/microsoft.sqlserver.dts.runtime.wrapper.datatype.aspx
  */
@@ -84,11 +90,14 @@ function getHumanType($sDataType)
  * Example : (fake)
  *
  *	#;Start;End;FieldName;FieldType;FieldSize
- *	2;1;13;Title;Unicode string [DT_WSTR];13
- *	3;14;19;Gender;Unicode string [DT_WSTR];6
- *	4;20;20;FirstName;Unicode string [DT_WSTR];1
- *	5;21;22;Surname;Unicode string [DT_WSTR];2
- *	6;23;31;Age;float [DT_R4];9
+ *	1;1;13;Title;Unicode string [DT_WSTR];13 
+ *	2;14;19;Gender;Unicode string [DT_WSTR];6
+ *	3;20;20;FirstName;Unicode string [DT_WSTR];1
+ *	4;21;22;Surname;Unicode string [DT_WSTR];2
+ *	5;23;31;Age;float [DT_R4];9
+ *
+ * NOTE : the first field (#1) will start at position 0 or 1
+ * depending on the BASE_START constant.
  */
 function makeCSV($name, $sXML)
 {
@@ -110,7 +119,7 @@ function makeCSV($name, $sXML)
 
 	// Process columns one by one
 	$sCSV = '#;Start;End;FieldName;FieldType;FieldSize'.PHP_EOL;
-	$wStart = 1;
+	$wStart = BASE_START;
 	$i = 0;
 
 	while (list( , $node) = each($result)) {
