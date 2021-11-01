@@ -1,6 +1,6 @@
-![Banner](images/banner.jpg)
-
 # SSIS Flatfiles export specifications to CSV
+
+![Banner](./banner.svg)
 
 By **Christophe Avonture**
 
